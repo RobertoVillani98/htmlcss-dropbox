@@ -1,5 +1,79 @@
+/* commons */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+}
+
+.container {
+	margin: 0 20px;
+}
+
+header {
+	height: 80px;
+	background-color: red;
+	line-height: 80px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.btn:hover {
+	text-decoration: none;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#logo img {
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+#logo {
+	float: left;
+}
+
+nav {
+	float: left;
+}
+
+nav li {
+	display: inline-block;
+	list-style: none;
+	font-size: 13px;
+	vertical-align: middle;
+}
+
+nav li a {
+	margin: 0 20px;
+	font-weight: 600;
+}
+
+#accedi {
+	text-align: right;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+#second-nav {
+	float: right;
+}
+
+.btn {
+	padding: 5px 15px;
+	color: white;
+	background-color: rgb(72, 98, 255);
+	font-size: 13px;
+	margin-left: 20px;
 }
