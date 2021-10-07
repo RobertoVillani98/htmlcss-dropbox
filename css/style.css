@@ -12,7 +12,6 @@
 
 header {
 	height: 80px;
-	background-color: red;
 	line-height: 80px;
 }
 
@@ -76,4 +75,56 @@ nav li a {
 	background-color: rgb(72, 98, 255);
 	font-size: 13px;
 	margin-left: 20px;
+}
+
+/* jumbotron */
+.jumbotron {
+	height: 650px;
+	background-color: rgb(180, 208, 231);
+}
+
+.container-jumbo {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.main-text {
+	height: 500px;
+}
+
+.main-text h1 {
+	text-align: left;
+	font-size: 65px;
+	padding-top: 50px;
+}
+
+.jumbo {
+	width: 70%;
+	float: right;
+	margin-top: 30px;
+}
+
+.descrizione {
+	width: 320px;
+	float: left;
+	margin-top: 30px;
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+
+.btn-big {
+	padding: 5px 15px;
+	color: white;
+	background-color: rgb(72, 98, 255);
+	font-size: 13px;
+}
+
+#annulla {
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+.freccia {
+	margin-top: 30px;
+	font-size: 35px;
 }
