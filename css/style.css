@@ -19,6 +19,7 @@ header {
  left: 0%;
  background-color: white;
  border-bottom: 1px solid rgb(146, 143, 143);
+ z-index: 9999;
 }
 
 a {
@@ -137,7 +138,7 @@ main .box {
  margin: 0 auto;
  max-width: 1170px;
  height: 600px;
- background-color: red;
+ /* background-color: red; */
 }
 
 .box h1 {
@@ -145,12 +146,6 @@ main .box {
  text-align: left;
  font-size: 45px;
  margin-bottom: 50px;
-}
-
-.riga {
- width: 100%;
- height: 80px;
- background-color: yellow;
 }
 
 .circle {
@@ -167,30 +162,69 @@ main .box {
  margin-right: 15px;
 }
 
-/* .blue {
+.blue {
  border: 4px solid rgb(1, 97, 255);
 }
 
 .col {
- height: 500px;
+ height: 700px;
  width: calc((100% - 150px) / 3);
- border: 1px solid black;
- float: left;
+ border: 1px solid lightgrey;
  margin-right: 50px;
  position: relative;
+ margin-top: 50px;
+ float: left;
 }
 
-.col p {
+.subtitle {
  text-align: center;
  margin-top: 10px;
 }
 
 .barra {
- border-bottom: 1px solid black;
+ border-bottom: 1px solid lightgrey;
  margin-top: 10px;
 }
-.man {
+.icon {
  position: absolute;
  top: 10px;
  left: 110px;
+}
+
+.container.pacchetto {
+ margin-top: 20px;
+ margin-left: 20px;
+ text-align: left;
+}
+
+.prezzo {
+ margin-top: 20px;
+ font-weight: bold;
+}
+
+.mese {
+ color: grey;
+ font-size: 14px;
+ margin-top: 10px;
+ margin-bottom: 50px;
+}
+
+.pacchetto {
+ list-style: none;
+}
+
+.margin {
+ margin-bottom: 30px;
+ font-size: 14px;
+ display: flex;
+}
+
+.icon2 {
+ margin-right: 5px;
+}
+
+/* .offerte {
+ font-size: 14px;
+ color: grey;
+ margin-bottom: 20px;
 } */
