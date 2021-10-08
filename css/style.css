@@ -167,7 +167,7 @@ main .box {
 }
 
 .col {
- height: 700px;
+ height: 900px;
  width: calc((100% - 150px) / 3);
  border: 1px solid lightgrey;
  margin-right: 50px;
@@ -223,8 +223,38 @@ main .box {
  margin-right: 5px;
 }
 
-/* .offerte {
+.big {
+ text-align: center;
+ margin-left: 40px;
+}
+
+.acquista {
+ color: blue;
+ text-decoration-line: underline;
+}
+
+.buy {
+ margin-top: 30px;
  font-size: 14px;
- color: grey;
- margin-bottom: 20px;
-} */
+}
+
+.space {
+ display: block;
+ border: none;
+ border-top: 1px solid grey;
+ border-bottom: none;
+ width: 50px;
+ margin: 30px 0px;
+}
+
+.check-list {
+ list-style: none;
+ display: flex;
+ margin-top: 20px;
+ font-size: 14px;
+}
+
+.fa-check {
+ color: blue;
+ margin-right: 5px;
+}
