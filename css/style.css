@@ -32,6 +32,14 @@ li:hover {
  border-bottom: 1px solid black;
 }
 
+.container.pacchetto li:hover {
+ border-bottom: none;
+}
+
+.footer-nav li:hover {
+ border-bottom: none;
+}
+
 a.btn:hover {
  text-decoration: none;
 }
@@ -103,7 +111,7 @@ nav li a {
 }
 .main-text h1 {
  text-align: left;
- font-size: 68px;
+ font-size: 72px;
  padding-top: 60px;
  margin-bottom: 60px;
 }
@@ -545,7 +553,7 @@ footer.footer-background {
 }
 
 .footer-nav {
- display: inline-block;
+ display: inline-table;
  width: calc(100% / 5 - 4px);
 }
 
@@ -576,4 +584,7 @@ footer.footer-background {
 
 #lingue .arrow-up {
  vertical-align: middle;
+}
+.container.pacchetto {
+ border: none;
 }
