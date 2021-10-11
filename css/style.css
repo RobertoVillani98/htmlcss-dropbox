@@ -140,8 +140,6 @@ nav li a {
 main.box {
  width: 100%;
  padding: 0 160px;
-
- /* background-color: red; */
 }
 
 .box h1 {
@@ -200,7 +198,7 @@ main.box {
 .icon {
  position: absolute;
  top: 10px;
- left: 110px;
+ left: 125px;
 }
 
 .container.pacchetto {
@@ -318,14 +316,14 @@ main.box {
 }
 
 .img-sx {
- width: 60%;
+ width: 50%;
  float: left;
 }
 
 .text-dx {
  width: 35%;
- float: right;
- margin: 0 20px;
+ float: left;
+ margin-left: 40px;
 }
 
 .text-dx h3 {
@@ -404,7 +402,7 @@ main.box {
 }
 
 .grid {
- width: 450px;
+ width: 512px;
  float: left;
 }
 
@@ -413,13 +411,13 @@ main.box {
 }
 
 .central {
- height: 450px;
- width: calc(100% - 900px);
+ height: 512px;
+ width: calc(100% - 1024px);
  background-color: lightgrey;
 }
 .block {
- width: 225px;
- height: 225px;
+ width: 256px;
+ height: 256px;
  float: left;
  position: relative;
 }
@@ -473,4 +471,30 @@ main.box {
  line-height: 1.4;
  font-size: 16px;
  margin-bottom: 60px;
+}
+
+.container-blu {
+ height: 400px;
+ background-color: rgb(180, 208, 231);
+ margin-top: 450px;
+}
+
+.content-text {
+ float: left;
+ width: 35%;
+ margin-top: 130px;
+ margin-left: 260px;
+}
+
+.content-text h2 {
+ font-size: 40px;
+ color: rgb(98, 9, 43);
+}
+
+#fake-btn {
+ float: right;
+ background-color: white;
+ padding: 10px 60px;
+ margin-top: 130px;
+ margin-right: 180px;
 }
